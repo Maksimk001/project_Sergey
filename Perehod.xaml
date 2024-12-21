@@ -1,0 +1,24 @@
+﻿<Page x:Class="Play.Perehod"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Perehod">
+
+    <Grid Background="White">
+
+        <Image Source="Image/FON.png" Stretch="Fill"></Image>
+
+        <Rectangle Fill="Black" Opacity="0.8"/>
+
+        <Canvas Width="800" Height="500" >
+            <TextBlock Text = "Поздравляем!" FontSize="55" Foreground="White" Margin="10" Canvas.Top="0" Width="350" Canvas.Left="225" />
+            <TextBlock Text = "Первый уровень пройден!" FontSize="55" Foreground="White" Canvas.Top="80" Width="670" Canvas.Left="65"/>
+        </Canvas>
+        
+        
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,50,0,0">
+            <Button Content="Продолжить" Click="ContinueButton_Click" Foreground="White" Background="Black" Width="auto" Margin="10" Padding="30,10,30,10" FontSize="45"/>
+            <Button Content="Выход" Click="ExitButton_Click" Width="auto" Foreground="White" Background="Black" Margin="10" Padding="30,10,30,10" FontSize="45"/>
+        </StackPanel>
+        <Frame x:Name="MainPerehodFrame"></Frame>
+    </Grid>
+</Page>

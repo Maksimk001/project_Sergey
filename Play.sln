@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play", "Play.csproj", "{E9EB75AC-315A-498D-BD80-0F168C87B3DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{07513DBA-6EEA-45E9-B461-5A550EC5DAA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9EB75AC-315A-498D-BD80-0F168C87B3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EB75AC-315A-498D-BD80-0F168C87B3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EB75AC-315A-498D-BD80-0F168C87B3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EB75AC-315A-498D-BD80-0F168C87B3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10DABCEC-4354-414F-BC1E-398D23477EF9}
+	EndGlobalSection
+EndGlobal
